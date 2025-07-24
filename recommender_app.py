@@ -162,7 +162,7 @@ else:
 
 
 # Prediction
-st.sidebar.subheader('4. Prediction')
+st.sidebar.subheader('3. Prediction')
 # Start prediction process
 pred_button = st.sidebar.button("Recommend New Courses")
 if pred_button and selected_courses_df.shape[0] > 0:
